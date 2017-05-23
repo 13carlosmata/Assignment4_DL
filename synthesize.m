@@ -1,11 +1,26 @@
-function[at,ht,ot,pt,ii]= synthesize(RNN,h0,x0,n)
+function[A,H,O,P,I]= synthesize(RNN,h,x)
 I = [];
-at = RNN.W*h0 +RNN.U*x0 + RNN.b;
-ht = tanh(at);
-ot = RNN.V*ht + RNN.c;
-pt = softmax(ot);
-cp = cumsum(pt);
-a = rand;
-ixs = find(cp-a>0);
-ii= ixs(1);
+n = size(x,2);
+K = size(RNN.c,1);
+val = size(h,1);
+
+A = zeros(val,n);
+H = zeros(val,n+1);
+O = zeros(K,n);
+P = zeros(K,n);
+for i=1:n
+    at = RNN.W*h +RNN.U*x(:,i) + RNN.b;
+    A(:,i) = at;
+    h = tanh(at);
+    H(:,i+1) = h; 
+    ot = RNN.V*h + RNN.c;
+    O(:,i) = ot; 
+    pt = softmax(ot);
+    P(:,i)=pt;
+    cp = cumsum(pt);
+    a = rand;
+    ixs = find(cp-a>0);
+    ii= ixs(1); I = [I;ii];
+end
+H(:,1)=[];
 end
