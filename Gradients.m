@@ -1,9 +1,7 @@
-function [grads,n] = Gradients(RNN,h0,X,Y)
-
-[at,ht,ot,pt,ii] = synthesize(RNN,h0,X);
-% [loss] = Getloss(X,Y,RNN,h0);
+function [grads,h] = Gradients(RNN,h0,X,Y)
 n = size(X,2);
-
+[at,ht,ot,pt,ii] = synthesize(RNN,h0,X,n);
+% [loss] = Getloss(X,Y,RNN,h0);
 grad_V = 0;
 grad_o = zeros(size(X));
 grad_h = zeros(size(RNN.V,2),n);
@@ -41,4 +39,5 @@ for i=1:n
     grad_b = grad_b + grad_a(:,i);
 end
 grads = Grads(grad_b,grad_c,grad_U,grad_W,grad_V);
+h=ht(:,i);
 end

@@ -1,5 +1,10 @@
 function num_grads = ComputeGradsNum(X, Y, RNN, h)
+disp('Computing numerical gradient for')
+fprintf('Field name: ');
+
 for f = fieldnames(RNN)'
+%     disp('Computing numerical gradient for')
+%     disp(['Field name: ' f{1} ]);
     num_grads.(f{1}) = ComputeGradNum(X, Y, f{1}, RNN, h);
 end
 

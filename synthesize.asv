@@ -10,7 +10,7 @@ O = zeros(K,n);
 P = zeros(K,n);
 for i=1:n
     at = RNN.W*h +RNN.U*x(:,i) + RNN.b;
-    size(x);
+    size(x)
     A(:,i) = at;
     h = tanh(at);
     H(:,i+1) = h; 
@@ -21,11 +21,11 @@ for i=1:n
     cp = cumsum(pt);
     a = rand;
     ixs = find(cp-a>0);
-    ii = ixs(1);
-    I = [I;ii];
-%     Y(ii,i+1) = 1;
-%     size(Y(ii,i+1));
-%     x(:,i+1) = Y(ii,i+1);
+    ii= ixs(1)
+    I = 
+    Y(ii,i+1) = 1;
+    size(Y(ii,i+1))
+    x = Y(:,i+1);
 end
 H(:,1)=[];
 end
