@@ -4,12 +4,10 @@ clc
 %% 
 fprintf('Running Code \n');
 fprintf('Loading Text');
-
 filename = 'goblet_book.txt';
 [char_to_ind, ind_to_char,K,book_data]  = ReadInData(filename);
 fprintf(' - done \n');
 %%
-eta = .1;   %learning rate
 seq_length = 25;    %length of the input sequences
 sig = .01;
 e = 1; % puntero de posicion
@@ -26,7 +24,7 @@ X_in = book_data(e:e+seq_length-1);
 Y_in = book_data(e+1:e+seq_length+1);
 [Xi,Yi]= ConversiontoMatrices(X_in,Y_in,char_to_ind,K);
 eta = 0.1;
-epsilon = 1e-10;
+epsilon = 1e-12;
 iterations = 100000; %run foe 3 epochs
 L = [];
 wb = waitbar(0,'1','Name','Iterations');    
@@ -37,6 +35,7 @@ fprintf(['-------------------------\n']);
 name = ['Iterations_',num2str(iterations),'_h',num2str(hour(datetime)),'m',num2str(minute(datetime)),'s',num2str(second(datetime))];
 path=['fig/',name,'.txt'];
 index_file=1;
+array_H=[];
 for iter=1:iterations
     waitbar(iter/iterations,wb,strcat('Iteration # ',num2str(iter)));
     if e+seq_length>=length(book_data)
@@ -64,6 +63,7 @@ for iter=1:iterations
         smooth_loss = .999*smooth_loss + .001*loss;
     end
     L = [L;smooth_loss];
+    array_H=[array_H,h];
     seq_learn=200;
     last_text = '';
     xi=zeros(K,seq_learn);
@@ -74,7 +74,7 @@ for iter=1:iterations
             chars=ind_to_char(place);
             last_text=[last_text,chars];
         end
-        header = ['\n iter = ', num2str(iter), ', smooth_loss=',num2str(smooth_loss),'\n']; 
+        header = ['iter = ', num2str(iter), ', smooth_loss=',num2str(smooth_loss),'\n']; 
         fprintf(header);
         text_to_print = ['Text: \n',last_text,'\n'];
         fprintf (text_to_print);
@@ -90,18 +90,21 @@ close(wb);
 Figure = plot(L);
 title(['Iterations: ', num2str(iterations), '  epoch:', num2str(epoch)])
 xlabel(['Final value of loss: ',num2str(smooth_loss)]);
+legend('smooth loss');
 saveas(Figure,['fig/','h',num2str(hour(datetime)),'m',num2str(minute(datetime)),'s',num2str(second(datetime),2),'.jpg']);
 %%
 last_text = '';
+final_size=1000;
 xi=zeros(K,1000);
-[~,~,~,~,Yl]= synthesize(RNN,h,xi,seq_learn,1);
-for ind=1:seq_learn
+[val pos]=min(L);
+[~,~,~,~,Yl]= synthesize(RNN,array_H(:,pos),xi,final_size,1);
+for ind=1:final_size
     [one place]=max(Yl(:,ind));
     chars=ind_to_char(place);
     last_text=[last_text,chars];
 end
-text1 = ['Passage of length 1000 characters synthesized from the best model (loss:',num2str(smooth_loss),') : \n'];
-fprintf('\n\n',text1);
+text1 = ['Passage of length',num2str(final_size),' characters synthesized from the best model (loss:',num2str(val),') : \n'];
+fprintf(['\n',text1]);
 fprintf(last_text);
 fid=fopen(path,'a+');
 fprintf(fid, ['\n' text1]);

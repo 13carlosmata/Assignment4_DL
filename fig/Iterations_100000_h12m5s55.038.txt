@@ -1,0 +1,66 @@
+iter = 1, smooth_loss=109.3853
+Text: 
+	¼!kr-_-dTr4Jg}Hv0Y¼!LV00}e-eQo:R7/6¢/UVWK0fârw/vdfqr:eu^cCIT6Gfz¢L€wUa
+v0m€h'a€D92Q4CKHxÃ?/€p1/	/'mf(FFU(XE,.KFBv¼QX3Y0¼0U_rImjâegk9€¢Y}t"XJfâ6;â;So?u¢_f;!v9fv0bodEU:Ie
+,CAh!QPUKjj.b,sv¢-E'Pc
+lCKnzK!
+
+iter = 10000, smooth_loss=46.4114
+Text: 
+	. Than gole rid offfy int newire up at thel-sbour?.
+"Nogertcemart.  The goDb ouglany bully" shevat the saod harfround sure thank. . sarle trud.
+"Bagtrro's exn-they, hisce shum.  Howlestid, that cenin
+
+iter = 20000, smooth_loss=45.0519
+Text: 
+	tluged sack.   harr woren the - a grofbling He agace besulett s-aking shittr a she to mith the loighed als the whick bote the nich, "Yourmother. Kseasick crits.  Harrywarrd wouls," mter his dot audl 
+
+iter = 30000, smooth_loss=44.6855
+Text: 
+	ep trosegee fenanlessans on iver pa encurcied nowensed. 
+The limen oh peats gote the klons plomyel withed Barke was dony dising at ever to wald ons pull to .
+o'ke banitiop sgrice gain atchesn, of eve
+
+iter = 40000, smooth_loss=44.0663
+Text: 
+	her shicce-word. . . .
+But Vald airsned the twared than shere him frown who perter A they're ther, at theo here botering the fnimeing it in from parss thistlize; midenftlegsien from wiremblest whish 
+
+iter = 50000, smooth_loss=45.0086
+Text: 
+	 liver Heral plut up at sticked we plave overs; his hands, and refle acrioch a Wurnd howde.
+Wean, ap nottunters lees," sald to theady Mugminfter of billy that he'll he Jartey?"
+"Yeakbederts affent an
+
+iter = 60000, smooth_loss=43.8915
+Text: 
+	rrounds anden their samus, "I sarked looked tere," sued. "Werrined thanped in rick," surtingly."Me!"
+AR shaim then the rottly.  "And quik very. "It fady's swes of Harry gutts fthe just a sowjoresting
+
+iter = 70000, smooth_loss=44.0176
+Text: 
+	ull, I thrictoned then would hand and stand, and shot One pleak of- I the have seon out into, sut amme?"  And beee the waid.  "Ohe to hand on faces happ to and hat?". PAnR wist of Hor to The eurber c
+
+iter = 80000, smooth_loss=42.7081
+Text: 
+	y the I alf the dud, to dins.  nes who on.
+He brept a sheas parring pait.  "Geomered was sterlacions; anding was defihe gut Ly, you Fair to Nughtling throbbeace, he part.  "Crouches.  Horthione whom.
+
+iter = 90000, smooth_loss=43.4512
+Text: 
+	ying Cennerding bristting to so belling a door defilas that of the -inding it theart to hand stating hadward to so his frouth it lotsing, he wailenstsithothe; theward Velf tomess glark pared Workin, 
+
+iter = 100000, smooth_loss=44.3769
+Text: 
+	el- arourned Surlut into, inders you tire a years gill, on eller got to their and his be was can't bock om gies over your lunating wish res of Fince so been wizard, when enor Dumbledo hor anterion, s
+
+
+Passage of length 1000 characters synthesized from the best model (loss:41.8353) : 
+salbaciokytols around azyo own of Gere sudols gut comine.  "No leward a to Who pined Fre's haiusing been a supering to Hous on yeiceg.  Fveryss put furinged the mages oHasked do they keepleynive gate to gold
+my ow of juskes Ffow Barvie ded fake the wonds from thid in the Werark a jatter.  Hoore Hermioneded'fo
+y threen thet?"
+"Af it, be scearne a perchers into."
+"Weroundy wall.  He ritches about onted to Hermione's tud, and you?  Juvioveing farets of Dumbledantly, and Herrione, treaving be-this skound heat foot, smaning on you weld a voites at tchan, Chorlualkied wive with Dumbledore styoun.  "Grabbuith Harry aren't you wink.
+"Would been uned on't coun deoking again!" stirked to bormt, had fight were up ketter.
+As a foor of of Herseled would gige -" said Ron're the would be pmosty of excregssormey, veired on set ovens is loom. 
+"Thobly ouch poing but of sues.  As and stird ogrly . . . conicg templays agains," cany a wailed, schempeyic sigads though she wond to your that oll, yon of the

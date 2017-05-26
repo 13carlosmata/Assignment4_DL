@@ -6,6 +6,7 @@ H = zeros(val,n+1);
 O = zeros(K,n);
 P = zeros(K,n);
 Y(:,1)=x(:,1);
+
 for i=1:n
     size(x);
     at = RNN.W*h +RNN.U*x(:,i) + RNN.b;
