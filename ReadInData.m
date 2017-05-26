@@ -1,7 +1,4 @@
-function [char_to_ind, ind_to_char,K]  = ReadInData(file)
-
-%Reading the data
-% book_fname = 'goblet_book.txt';
+function [char_to_ind, ind_to_char,K,book_data]  = ReadInData(file)
 book_fname = file;
 fid = fopen(book_fname,'r');
 book_data = fscanf(fid,'%c');

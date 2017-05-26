@@ -1,0 +1,74 @@
+
+ iter = 1, smooth_loss=107.6579
+Text: 
+	U0º9}(bAsx0E0RoS7‚gQQ.2!Rr2‚Qo!w:?Pv,Eg w,((‚^Nl)gLJC60a¢t_,(√?6oqEÄ 7pW√‚fd?qK¢ET(pRwsNvKY,‚17?F7(O! SvGA2o9H‚ZKiO9fg.'‚‚KhUA'QzuTz(nP9jeTz:anaa6M2GJDQdu^samxND)DhaR0ÄJp)zc?dKMB(f J	AnN?CHyeb.;dt-)1
+
+
+ iter = 10000, smooth_loss=51.808
+Text: 
+	 foper otill on to gigghack be monang to haro baogt a cadld eas Jorard "The ap!" sagd yorally," teat?" ild, to a Nick that Gord hork sous ank the serstrenre mod, whey Thankley paok sore of the of she
+
+
+ iter = 20000, smooth_loss=49.0789
+Text: 
+	ting yims Whly''rory enghe for."
+"Niply..  Srysthet they chais boull ofbe dot.
+Haid ser hid wene to sizand with they  frow yea ana Stering to sighe He wrick uide Heroddininine Dige lorry bat bastad u
+
+
+ iter = 30000, smooth_loss=48.0058
+Text: 
+	en, assen and kelh herlimery. . soull werorming hat sity.  Sand, Most of mones he of crest he forsling toblieg one thas shem!
+
+evaterstome sow marne anone a houlmad thet - Herst, to the peenedo, by a
+
+
+ iter = 40000, smooth_loss=47.0427
+Text: 
+	iring he Frem, briness frome elffiensermenreld it ancw. .
+. dis lange..  Here beare thee he gond his noterk thinged roting on to Daygioner.. Ceadtter.  Vorded bentins of you theas saudd everse be the
+
+
+ iter = 50000, smooth_loss=48.0786
+Text: 
+	uld blokelale.  "Folly!"
+"yeang.' elf Puggont mugel; radienler, nacory Bimyint awast.
+"Oh not.
+"Oh, Sporthen peeming and it then switt hid aad a shen.  Anoun out she." ursherigised It Knofked lets th
+
+
+ iter = 60000, smooth_loss=46.8357
+Text: 
+	d fightey," s.'mpear away nand, ontiry."
+
+"You cleetss everslid versment mexn of Duming.
+"Than'ved..
+Arzad regiar. Herding of tam. Ap.
+"Steromate dow vise at yTU buArs. The fled, ald veack.   breass 
+
+
+ iter = 70000, smooth_loss=46.7109
+Text: 
+	much slimpover, pitming his uped CHaid thour the bloogh whouthed and noons ripentted y've the for of gey," neved thimpeponed to thes Sked!"
+Kruw and plow S sentes, ," Ronom a lid rew in.  Harry yot, 
+
+
+ iter = 80000, smooth_loss=45.3782
+Text: 
+	epparunaylut thearicle Lear been of him, at the enkeder somevernife eean waupwabued the collly vigls wo low-hare surarrege with.  Profespoker.  Euther?"
+Teat care a we then to wangerdlyce thes, bag t
+
+
+ iter = 90000, smooth_loss=46.0826
+Text: 
+	leak, thoughibse my be hay sire sero necepich ann's ix she befed leaked the to for uskn's him, I'm nestry wase to was the come fisur.  You the mor, at conce a namming hid his at  in theer Vounceeille
+
+
+ iter = 100000, smooth_loss=47.0039
+Text: 
+	ed, and you', arront.  I Mooly's streave.  " put knows we wand at standed mutter.
+"Ye, Dummond intime of said Hagrieclow said  -"Ess," porgwayes into mone," said Hetme wousd waRchor to ancoss, he soo
+
+
+Passage of length 1000 characters synthesized from the best model (loss:47.0039) : 
+	ing ears sireched a as good Cheimnletut the en. Dave onte were doth strang in to youg he fooe.  "Whet a wand the soundary, thoughering of his at he bouch so toughice becood Bact boor Geabled someed t
